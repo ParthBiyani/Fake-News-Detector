@@ -1,1 +1,7 @@
-# Fake-News-Detector
+# Neural Sentinel: An Intelligent NLP-Driven Framework for Automated Fake News Detection Using Advanced Text Analytics and Machine Learning
+
+In an era where misinformation spreads faster than truth, this project presents a sophisticated fake news detection system leveraging Natural Language Processing (NLP) and Machine Learning techniques to combat digital disinformation. The system employs a comprehensive pipeline that integrates advanced text preprocessing, semantic analysis, and classification algorithms to distinguish authentic news from fabricated content with high accuracy.
+
+The framework utilizes a dual-corpus architecture consisting of verified authentic and fake news articles, implementing a robust preprocessing pipeline powered by spaCy and NLTK libraries. The system performs intelligent stopword elimination, lemmatization and contraction normalization to extract meaningful linguistic features. Feature engineering employs TF-IDF (Term Frequency-Inverse Document Frequency) vectorization to transform textual data into high-dimensional numerical representations, capturing the semantic essence of news articles.
+
+The classification model leverages Linear Support Vector Classification (LinearSVC), a powerful algorithm particularly effective for high-dimensional text data, trained on thousands of news articles spanning multiple subjects. The system incorporates visual analytics through custom word cloud generation, revealing distinct linguistic patterns between fake and authentic news, providing interpretability to the detection mechanism.
